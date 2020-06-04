@@ -1,0 +1,61 @@
+<div class="main-content" >
+    <div class="container-fluid">
+        <div class="login-form">
+            <form action="/examples/actions/confirmation.php" method="post">
+                <div class="avatar">
+                    <img src="/assets/img/avatar.png" alt="Avatar">
+                </div>
+                <h2 class="text-center">Member Login</h2>   
+                <div class="form-group">
+                    <input type="text" class="form-control" name="username" placeholder="Username" [(ngModel)]="email">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="password" placeholder="Password" required="required" [(ngModel)]="password">
+                </div>        
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" (click) = "login()" >Sign in</button>
+                </div>
+               
+            </form>
+            <p class="text-center small">Don't have an account? <a href="#">Sign up here!</a></p>
+        </div>
+        <!-- <div class="row">
+            <div class="col-6 offset-3 center-card">
+
+            
+            <div class="card red-card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6" style="height: 100%; background-image: url('/assets/img/img-fondo.png;')">
+                            <img src="/assets/img/img-fondo.png" alt="" style="height: 350px;; width: auto;">
+                            
+                        </div>
+                        <div class="col-6">
+                            <div class="row" style="padding-top: 40px;">
+                                <form >
+                                    <div class="form-group" style="width: 350px;">
+                                        <label for="email">Email</label>
+                                        <input class="form-control" type="text" name="email" id="" [(ngModel)]="email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Password</label>
+                                        <input class="form-control" type="password" name="Password" id="" [(ngModel)]="password">
+                                    </div>
+                                    <input type="button" class="btn btn-default-swo pull-right" (click) = "login()" value="login">
+                                </form>
+                            </div>
+                            <div class="row">
+                                <img src="/assets/img/covid-rojo.png" alt="" style="width: 200px; height: auto; margin-top: 25px; margin-left: 200px;">
+                            </div>
+                            
+                           
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        </div> -->
+    </div>
+</div>

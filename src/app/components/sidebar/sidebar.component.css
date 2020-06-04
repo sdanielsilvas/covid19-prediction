@@ -1,0 +1,12 @@
+.swo-image{
+    height: 45px;
+}
+
+.swo-sidebar {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(210, 16, 52), rgb(165, 17, 41)); /* Standard syntax (must be last) */
+  }
+
+  .nav-text{
+      color: white;
+  }
